@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="100 20 250 60" width="350" height="100">
+  <defs>
+    <style>
+      .company-name { font-family: Arial, sans-serif; font-weight: bold; }
+      .tagline { font-family: Arial, sans-serif; font-size: 12px; }
+    </style>
+  </defs>
+  
+  <g>
+    <text x="100" y="50" class="company-name" font-size="24" fill="#000000">
+      GoodGraph<tspan fill="#2563eb">AI</tspan>
+    </text>
+    <text x="100" y="70" class="tagline" fill="#666666">
+      Transforming Data into Meaningful Impact
+    </text>
+  </g>
+</svg>
