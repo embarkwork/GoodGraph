@@ -29,11 +29,11 @@ export default function RootLayout({ children }) {
         className={`${ptSerif.variable} ${ibmPlexMono.variable} font-serif antialiased bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark min-h-screen`}
       >
         <ThemeProvider>
-          <Header />
+          
           <main className="flex-grow">
             {children}
           </main>
-          <Footer />
+          
         </ThemeProvider>
       </body>
     </html>
