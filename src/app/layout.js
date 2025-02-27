@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${ptSerif.variable} ${ibmPlexMono.variable} font-serif antialiased bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark min-h-screen`}
+        className={`${ptSerif.variable} ${ibmPlexMono.variable} font-serif antialiased bg-background-light text-text-light min-h-screen`}
       >
         <ThemeProvider>
           
